@@ -134,7 +134,7 @@ p{
   padding-bottom: 50px;
   padding-left: 70px
     ;
-  
+
 }
 .choose-us-title h2{
   text-decoration: uppercase;
@@ -184,4 +184,59 @@ background-color: #129CF3;
 .choose-us-item p{
   color: #727272;
   font-size: 15px;
+}
+
+/********* Testimonial *********/
+
+.testimonial{
+  /*background-image: url(ressources\img\testimonial-bg.jpg);*/
+  background-color: Grey;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+   -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+.testimonial-overlay{
+  background-color: rgba(31, 31, 31, 0.5);
+  padding-top: 80px;
+  padding-bottom:  80px;
+}
+.carousel-indicators{
+  bottom: -10px;
+}
+.carousel-inner img{
+  border: 2px solid #129CF3;
+  border-radius: 50%;
+  padding: 5px;
+}
+.testimonial-caption{
+  padding-bottom: 70px;
+}
+.testimonial-caption h2{
+  color: #129CF3;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900px;
+  margin-top: 25px;
+}
+.testimonial-caption h4{
+  color: #129CF3;
+}
+.testimonial-caption h4 span{
+  color: #D8D8D8;
+  font-style: italic;
+  font-weight: 300;
+}
+.testimonial-caption p{
+  color: #D8D8D8;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 50px;
+}
+.img-carrousel{
+  margin-left: auto;
+  margin-right: auto;
 }
