@@ -34,6 +34,8 @@ p{
   width: 60px;
   height: 1px;
   background-color: #129CF3;
+  padding-left: 100px;
+  margin-left: 80px;
 }
 .section-title p{
   color: #333;
@@ -239,4 +241,88 @@ background-color: #129CF3;
 .img-carrousel{
   margin-left: auto;
   margin-right: auto;
+}
+
+/****** Features *************/
+
+.Features-inner-wrapper{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.letf-feature-item{
+  position: relative;
+  padding-right: 90px;
+  margin-bottom: 65px;
+  text-align: right;
+  margin-top: 35px;
+}
+.letf-feature-icon{
+  position: absolute;
+  font-size: 40px;
+  right: 0;
+  top: -8px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: #129CF3;
+}
+.section-title h2{
+  padding-left: 200px;
+}
+.section-title p{
+  padding-left: 200px;
+}
+.letf-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px
+  color:#333;
+}
+.letf-feature-item p{
+  color: #333;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 25px;
+}
+.feature-iphone img{
+  width:  100%;
+}
+.right-feature-item{
+  position: relative;
+  font-size: 16px;
+  font-family: "Raleway",sans-serif;
+  padding-left: 90px;
+  margin-bottom: 65px;
+  margin-top: 35px;
+}
+.right-feature-item-icon{
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  color: #129CF3;
+  text-align: center;
+}
+.right-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px
+  color:#333;
+}
+
+/********** Purchase Now ***********/
+
+.purchase-now{
+  background-color: Grey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.purchase-now p{
+  color: #dfdfdf;
+  font-size: 18px;
+  font-weight: 300;
 }
