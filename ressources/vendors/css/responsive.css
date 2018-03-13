@@ -1,0 +1,37 @@
+/* SMALL DEVICES */
+@media only screen and (max-width: 767px) {
+.navbar-default {
+  background-color: #fff !important;
+  border-color: #e6e6e6;
+}
+.about-iphone img {
+  width: 100%;
+}
+.purchase_now .col-md-3 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+}
+/* SMALL DEVICES AND TABLETS*/
+@media only screen and (max-width: 768px) {
+.header-iphone {
+  display: none;
+}
+.header-text, .header-btns {
+  text-align: center;
+}
+
+}
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+/* LARGE DEVICES */
+@media only screen and (min-width: 1200px) {
+
+
+
+}
